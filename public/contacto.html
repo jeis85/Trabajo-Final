@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSICOAVANZA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/public/style/contacto.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- Link de mis estilos -->
+</head>
+
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="index.html" class="logo">inicio</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="/public/images/menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Nosotros.html">Nosotros</a></li>
+                    <li><a href="Servicios.html">Servicios</a></li>
+
+                </ul>
+            </nav>
+        </div>
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+        
+            <div class="carousel-inner miCarrusel">
+        
+              <div class="carousel-item active">
+                <img src="/public/images/Baner 1.png" class="d-block w-100" alt="BANER1">
+              </div>
+              <div class="carousel-item">
+                <img src="/public/images/baner2.png" class="d-block w-100" alt="BANER2">
+              </div>
+              <div class="carousel-item">
+                <img src="/public/images/baner3.png" class="d-block w-100" alt="BANER3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      
+    </header>
+
+    <section class="about container">
+        <div class="about-img">
+            <img src="/public/images/Psicoavanza-Photoroom.png-Photoroom.png" alt="">
+           </div>
+                <div class="about-txt">
+                
+                        <h2>Contactanos</h2>
+                        <p><i class='bx bxs-phone'></i>3022536744</p>
+                        <p><i class='bx bx-envelope'></i>info@psicoavanza.com</p>
+                      <li><a href="MAPA"></a><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15906.895854779408!2d-74.0654315!3d4.6432493!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b5b1f2b963b%3A0x91e721ece97e758c!2sCESPI.%20Centro%20de%20Servicios%20Psicol%C3%B3gicos%20Ibero!5e0!3m2!1ses-419!2sco!4v1713573304383!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>Nos Ubicamos</li>
+
+                   
+    </section>
+
+    <main class="servicios">
+        <h2>Servicios</h2>
+        <div class="servicios-content container">
+            <div class="servicio-1">
+                <i class="fa-sharp fa-solid fa-children"></i>
+                <h3>Ps. Pediatrica</h3>
+            </div>
+            <div class="servicio-1">
+                <i class="fa-sharp fa-solid fa-hospital-user"></i>
+                <h3>Ps. Adolescentes</h3>
+            </div>
+
+            <div class="servicio-1">
+                <i class="fa-solid fa-person"></i>
+                <h3>Ps. Adultos</h3>
+            </div>
+
+            <div class="servicio-1">
+                <i class="fa-sharp fa-solid fa-user"></i>
+                <h3>Ps. Adultos Mayores</h3>
+            </div>
+
+        </div>
+    </main>
+
+
+    <section class="formulario container">
+        <form method="post" autocomplete="off">
+            <h2>Agenda Consulta</h2>
+            <div class="input-group">
+                <div class="input-container">
+                    <input type="text" name="name" placeholder="Nombre Y Apellido">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+
+                <div class="input-container">
+                    <input type="tel" name="phone" placeholder="Telefono Celular">
+                    <i class="fa-solid fa-phone"></i>
+                </div>
+
+                <div class="input-container">
+                    <input type="email" name="email" placeholder="correo">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+
+                <div class="input-container">
+                    <textarea name="message" placeholder="Detalles de la consulta"></textarea>
+
+                </div>
+                <input type="submit" name="send" class="btn" onclick="myFunction()">
+
+            </div>
+
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="link">
+                <a href="#" class="logo"></a>
+            </div>
+
+            <div class="link">
+                <ul>
+                    <li><a href="https://www.facebook.com/?locale=es_LA"><i class='bx bxl-facebook-square'></i>Facebook</a></li>
+                    <li><a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i>Instagram</a></li>
+                    <li><a href="https://www.tiktok.com/es/"><i class='bx bxl-tiktok'></i>tiKtoK</a></li>
+                    <li><a href="https://twitter.com/?lang=es"><i class='bx bxl-twitter'></i>Twitter</a></li>
+                
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+  
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
