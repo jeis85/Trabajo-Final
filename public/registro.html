@@ -1,25 +1,48 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
     <link rel="stylesheet" href="./style/registro.css">
+    <script src="./scripts/registro.js" defer></script>
+
 </head>
+
 <body>
-    <header class="header">
+
+    <header>
         <div class="menu container">
-            <a href="index.html" class="logo">Inicio</a>
-    <form>
-<h2>REGISTRO</h2>
-<input type="text" placeholder="NOMBRES">
-<input type="text" placeholder="APELLIDOS">
-<input type="email" placeholder="CORREO">
-<input type="password" placeholder="CONTRASEÑA">
-<input type="password" placeholder="CONFIRMAR CONTRASEÑA">
-<input type="submit" class="btn" value="REGISTRARME">
+            <a href="registro.html" class="logo"></a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+
+                <img src="./images/menu.png" class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="ingreso.html">Ingreso</a></li>
+                    <li><a href="registro.html">Registro</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+            
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <form id="form" method="">
+
+        <h2>REGISTRO</h2>
+        <input type="text" placeholder="Nombre Completo" id="nombreCompleto" required/>
+        <input type="email" placeholder="Correo" id="correo" required/>
+        <input type="password" placeholder="Contraseña" id="contrasena" required/>
+        <!-- <button type="submit" class="btn" >Registrarme</button> -->
+        <input type="submit" class="btn" value="Registrarme" onclick="registrarUsuario(user)"/> 
     </form>
 
 
 </body>
+
 </html>
